@@ -1,0 +1,293 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    color: #5a5656;
+    padding: 70px;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;/*  */
+    flex-direction: column;/* */
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    margin-top: auto;
+    padding:100% 100px;
+
+}
+
+
+
+/* le menu ; contact ,a propos ,reservation doivent etre  a droite en haut de la page */
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;/* */
+}
+
+nav ul li a {
+    color: #f0e6e6;
+    text-decoration: none;
+}
+
+
+section {
+    margin-bottom: 100px;
+}
+
+#hero {
+    /* Définir les images d'arrière-plan et les faire défiler avec parallaxe */
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Arrière-plan semi-transparent */
+        url('image1.jpg'), /* Première image d'arrière-plan */
+        url('image2.jpg'), /* Deuxième image d'arrière-plan */
+        url('image3.jpg'); /* Troisième image d'arrière-plan */
+
+    /* Taille de l'arrière-plan et position */
+    background-size: cover;
+    background-attachment: fixed; /* Fixer l'arrière-plan pour l'effet de parallaxe */
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 330px;
+
+}
+
+/* image d'arriere plan du heros sur tablette et ordinateur et sur mobile  */
+#hero h1 {
+    font-family: 'Playfair Display', serif; /* Utilisation d'une police de caractères avec des empattements pour une touche de sophistication */
+    font-size: 48px; /* Taille du texte */
+    font-weight: bold; /* Police en gras pour un effet plus marquant */
+    color: #ffffff; /* Couleur du texte */
+    margin-bottom: 20px; /* Marge inférieure pour un espacement par rapport au paragraphe suivant */
+}
+
+#hero p {
+    font-family: 'Playfair Display', serif; /* Utilisation d'une police de caractères sans empattement pour un texte plus lisible */
+    font-size: 20px; /* Taille du texte */
+    color: #ffffff; /* Couleur du texte */
+    margin-bottom: 40px; /* Marge inférieure pour un espacement par rapport au paragraphe suivant */
+}
+
+/*  */
+.btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+#about, #services, #contact {
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+
+.hotel-logo {
+    position:absolute;
+    top :0;
+    left: 0;
+    z-index: 9999; /* Assurez-vous que le logo est au-dessus de tout le reste */
+    width: 150;
+    height: auto;
+    margin-top: 20;
+
+   
+}
+
+
+/* Styles pour le logo */
+.logo {
+    width : 800px; /* Largeur du logo */
+    height: auto; /* Hauteur automatique pour conserver le ratio */
+    position: fixed; /* Position fixe */
+    bottom: 20px; /* Position verticale à 20 pixels du bas de la fenêtre */
+    left: 50%; /* Position horizontale au milieu de la fenêtre */
+    transform: translateX(-50%); /* Déplacer le logo horizontalement de -50% de sa propre largeur */
+    z-index: 9999; /* Assurez-vous que le logo est au-dessus de tout le reste */
+    background-color: rgba(255, 255, 255, 0.8); /* Couleur de fond semi-transparente */
+    padding: 10px; /* Ajoute un peu de marge intérieure autour du logo */
+    border-radius: 10px; /* Ajoute un peu de bord arrondi */
+
+}
+
+/* Styles pour le fond semi-transparent du logo */
+.logo-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; /* Largeur du fond semi-transparent sur toute la largeur de la fenêtre */
+    height: 100vh; /* Hauteur du fond semi-transparent sur toute la hauteur de la fenêtre */
+    background-color: rgba(0, 0, 0, 0.5); /* Couleur de fond semi-transparente */
+    z-index: 9998; /* Z-index inférieur au logo pour que le fond soit en arrière-plan */
+    animation: fadeOut 5s forwards; /* Animation de disparition du logo après 5 secondes */
+}
+
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden; /* Cacher le logo à la fin de l'animation */
+    }
+}
+
+
+.header-title {
+    font-size: 30px; /* Taille du titre */
+    text-align: center; /* Centrer le texte */
+    margin: 0; /* Supprimer les marges par défaut */
+}
+
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: rgb(248, 247, 250);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+
+.social-icons {
+    list-style: none;
+    margin: 0;
+    padding: 10;
+}
+
+.social-icons li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-icons li img {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+/* syle pour le corps de la page index.php  */
+/* Styles pour les sections */
+section {
+    padding: 50px;
+}
+
+/* Titre de la section */
+section h2 {
+    font-family: 'Playfair Display', serif; /* Utilisation d'une police de caractères avec des empattements pour une touche de sophistication */
+    font-size: 28px; /* Taille du texte */
+    color: #0a0aff; /* Couleur du texte */
+    text-align: center; /* Centrer le texte */
+    margin-bottom: 30px; /* Marge en bas du titre */
+}
+
+/* Paragraphe de la section "À propos" */
+section#about p {
+    font-family: 'Playfair Display', serif; /* Utilisation d'une police de caractères avec des empattements pour une touche de sophistication */
+    font-size: 18px; /* Taille du texte */
+    line-height: 1.6; /* Espacement des lignes */
+    color: #000000; /* Couleur du texte */
+    text-align: justify; /* Justifier le texte */
+}
+
+/* Liste des services */
+section#services ul {
+    list-style-type: none; /* Supprimer les puces de la liste */
+    padding-left: 0; /* Supprimer le décalage à gauche de la liste */
+}
+
+/* Éléments de la liste des services */
+section#services ul li {
+    font-family: 'Playfair Display', serif; /* Utilisation d'une police de caractères avec des empattements pour une touche de sophistication */
+    font-size: 18px; /* Taille du texte */
+    color: #0e0d0d; /* Couleur du texte */
+    margin-bottom: 10px; /* Marge en bas de chaque élément */
+}
+
+/* Style pour les titres des sections */
+h2 {
+    font-family: 'Arial Black', sans-serif; /* Police de caractères audacieuse */
+    font-size: 2em; /* Taille du texte */
+    color: #000000; /* Couleur du texte */
+    text-align: center; /* Centrer le texte */
+    margin-bottom: 30px; /* Marge en bas du titre */
+}
+
+
+
+/* Ajoutez ces styles à votre fichier CSS existant */
+
+/* Pour les écrans de taille moyenne (tablettes) */
+@media (max-width: 992px) {
+    .h1{
+        font-size: 14px; /* Ajustez la taille du titre pour les téléphones */
+
+    }
+
+}
+
+/* Pour les écrans de petite taille (téléphones) */
+@media (max-width: 768px) {
+   
+    .section h2 {
+        font-size: 14px; /* Ajustez la taille du titre pour les téléphones */
+    }
+    .logement {
+        max-width: 90%; /* Ajustez la largeur maximale de l'image pour les téléphones */
+        height: auto; /* Permettre à la hauteur de s'ajuster automatiquement en fonction de la largeur */
+    }
+}

@@ -1,0 +1,136 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;/*  */
+    flex-direction: column;/* */
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    margin-top: auto;
+    padding:100% 100px;
+    background-color: black;
+
+}
+
+
+.btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+#presentation, #services, #contact {
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+
+.hotel-logo {
+    position:absolute;
+    top :0;
+    left: 0;
+    z-index: 9999; /* Assurez-vous que le logo est au-dessus de tout le reste */
+    width: 150;
+    height: auto;
+    margin-top: 20;
+
+   
+}
+
+
+/* Styles pour le logo */
+.logo {
+    width : 800px; /* Largeur du logo */
+    height: auto; /* Hauteur automatique pour conserver le ratio */
+    position: fixed; /* Position fixe */
+    bottom: 20px; /* Position verticale à 20 pixels du bas de la fenêtre */
+    left: 50%; /* Position horizontale au milieu de la fenêtre */
+    transform: translateX(-50%); /* Déplacer le logo horizontalement de -50% de sa propre largeur */
+    z-index: 9999; /* Assurez-vous que le logo est au-dessus de tout le reste */
+    background-color: rgba(255, 255, 255, 0.8); /* Couleur de fond semi-transparente */
+    padding: 10px; /* Ajoute un peu de marge intérieure autour du logo */
+    border-radius: 10px; /* Ajoute un peu de bord arrondi */
+
+}
+
+/* Styles pour le fond semi-transparent du logo */
+.logo-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; /* Largeur du fond semi-transparent sur toute la largeur de la fenêtre */
+    height: 100vh; /* Hauteur du fond semi-transparent sur toute la hauteur de la fenêtre */
+    background-color: rgba(0, 0, 0, 0.5); /* Couleur de fond semi-transparente */
+    z-index: 9998; /* Z-index inférieur au logo pour que le fond soit en arrière-plan */
+    animation: fadeOut 10s forwards; /* Animation de disparition du logo après 5 secondes */
+}
+
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden; /* Cacher le logo à la fin de l'animation */
+    }
+}
+
+
+.header-title {
+    font-size: 30px; /* Taille du titre */
+    text-align: center; /* Centrer le texte */
+    margin: 0; /* Supprimer les marges par défaut */
+}
+
+
+
+
+
+/* syle pour le corps de la page index.php  */
+/* Styles pour les sections */
+section {
+    padding: 50px;
+}
+
+/* Titre de la section */
+section h2 {
+    font-family: 'Playfair Display', serif; /* Utilisation d'une police de caractères avec des empattements pour une touche de sophistication */
+    font-size: 28px; /* Taille du texte */
+    color: #0a0aff; /* Couleur du texte */
+    text-align: center; /* Centrer le texte */
+    margin-bottom: 30px; /* Marge en bas du titre */
+}
+
+ p {
+    font-family: 'Playfair Display', serif; /* Utilisation d'une police de caractères avec des empattements pour une touche de sophistication */
+    font-size: 18px; /* Taille du texte */
+    line-height: 1.6; /* Espacement des lignes */
+    color: #000000; /* Couleur du texte */
+    text-align: justify; /* Justifier le texte */
+    text-align: center; /* Centrer le texte */
+}
+
+
