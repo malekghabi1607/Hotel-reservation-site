@@ -1,2 +1,2 @@
-# Mini-projet -- site de réservation d'hotel
-L'objectif du projet est de réaliser une version simplifiée d'un site de réservation d'hôtel. Le principe est de permettre de consulter l'état de réservation d'un ensemble de chambres d'un hôtel.
+# Mini-project -- hotel reservation site
+The objective of the project is to create a simplified version of a hotel reservation site. The principle is to allow you to consult the reservation status of a set of rooms in a hotel.
