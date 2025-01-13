@@ -39,12 +39,14 @@
 
 - **Images** : Photos des chambres, logos, et icônes des réseaux sociaux.
 - **Vidéos** :
-  - [Présentation de l'hôtel:
-  - https://github.com/user-attachments/assets/c09b3964-cb14-4dcb-a679-3fae7311c479
+  - Présentation de l'hôtel:
+
+https://github.com/user-attachments/assets/4d8ca6f7-a281-4f66-b901-fa4fe2d42586
+
   - Vue détaillée des chambres:
-  - https://github.com/user-attachments/assets/6a8ff0b0-11f0-4fa5-b474-cbd430df7c5f
+   https://github.com/user-attachments/assets/6a8ff0b0-11f0-4fa5-b474-cbd430df7c5f
   - Suppression ou modification des réservations:
-  - https://github.com/user-attachments/assets/b770b222-4b7a-4c46-81f9-e12c09bfbb31
+   https://github.com/user-attachments/assets/b770b222-4b7a-4c46-81f9-e12c09bfbb31
 
 ---
 
