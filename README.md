@@ -47,11 +47,9 @@ Pour utiliser ce projet en local, suivez les étapes ci-dessous :
 
 1. **Cloner ou télécharger** le projet :
    ```bash
-   git clone <lien-du-projet>
-
-
-
-   ## Vidéos
+   http://localhost/hotel-reservation-site
+   
+   ```bash
 
 Le projet inclut des vidéos pour enrichir l'expérience utilisateur :
 1. **`WhatsApp Video 2025-01-13 at 15.28.26.mp4`** : Présentation de l'hôtel et de ses services.
