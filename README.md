@@ -57,9 +57,29 @@ https://github.com/user-attachments/assets/dbb9e007-fa7a-4897-bf3a-d48c9df999ee
 
 
 
-
 ## Installation et utilisation ⚙️
 
-1. Clonez le dépôt :
-   ```bash
-git clone https://github.com/malekghabi16/07.git
+### Configurez l’environnement :
+- Installez un serveur web local (XAMPP, WAMP, ou autre).
+- Placez le projet dans le répertoire approprié (ex. : `htdocs` pour XAMPP).
+
+### Configurez la base de données :
+- Importez le fichier SQL fourni dans votre outil de gestion de base de données (ex. : phpMyAdmin).
+- Mettez à jour les paramètres de connexion dans le fichier `config.php`.
+
+### Lancez l’application :
+- Ouvrez votre navigateur et accédez à [http://localhost/hotel-reservation-site](http://localhost/hotel-reservation-site).
+
+---
+
+## Contributions 🤝
+
+Les contributions sont les bienvenues ! N’hésitez pas à soumettre une *issue* ou une *pull request* pour améliorer le projet.
+
+---
+
+## Auteurs 🖋️
+
+- **Malek Ghabi**
+- [GitHub](https://github.com/malekghabi16)
+- [Email](mailto:votreemail@example.com)
