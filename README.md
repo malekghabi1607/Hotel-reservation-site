@@ -38,17 +38,21 @@
 ### Multimédia 📷
 
 - **Images** : Photos des chambres, logos, et icônes des réseaux sociaux.
-- **Vidéos** :
-  - Présentation de l'hôtel:
+- **Vidéos du projet** :
 
-https://github.com/user-attachments/assets/4d8ca6f7-a281-4f66-b901-fa4fe2d42586
 
-  - Vue détaillée des chambres:
-   https://github.com/user-attachments/assets/6a8ff0b0-11f0-4fa5-b474-cbd430df7c5f
-  - Suppression ou modification des réservations:
-   https://github.com/user-attachments/assets/b770b222-4b7a-4c46-81f9-e12c09bfbb31
 
----
+https://github.com/user-attachments/assets/aef35a3d-af73-475d-8f67-e102fcccaba2
+
+
+
+https://github.com/user-attachments/assets/f67943a7-2e17-49ce-a7a9-6fb2db3b5956
+
+
+Uploading Suppression ou modification des réservations.mp4…
+
+
+
 
 ## Installation et utilisation ⚙️
 
