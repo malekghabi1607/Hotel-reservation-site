@@ -72,14 +72,8 @@ https://github.com/user-attachments/assets/dbb9e007-fa7a-4897-bf3a-d48c9df999ee
 
 ---
 
-## Contributions 🤝
-
-Les contributions sont les bienvenues ! N’hésitez pas à soumettre une *issue* ou une *pull request* pour améliorer le projet.
-
----
 
 ## Auteurs 🖋️
 
 - **Malek Ghabi**
-- [GitHub](https://github.com/malekghabi16)
-- [Email](mailto:votreemail@example.com)
+
